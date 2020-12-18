@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"></LinearLayout>
+
+    <EditText
+        android:id="@+id/c1"
+        android:layout_width="163dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint=" Nombre 1"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/c2"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Nombre2"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/bplus"
+        android:layout_width="136dp"
+        android:layout_height="66dp"
+        android:text='"+"'
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/bmoins"
+        android:layout_width="131dp"
+        android:layout_height="54dp"
+        android:text='"-"'
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <Button
+        android:id="@+id/bmult"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:text='"*"'
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/bdiv"
+        android:layout_width="124dp"
+        android:layout_height="50dp"
+        android:text='"/"'
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="308dp"
+        android:layout_height="51dp"
+        android:text="Résultat"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="632dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
